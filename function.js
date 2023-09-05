@@ -4,8 +4,8 @@ function sleep(name, time) {
 sleep("Faisal", " 10 PM");
 
 function myFunction(a, b) {
-    const multi = a * b;
-    return multi;
+
+    return a * b;
 }
 
 let fake = myFunction(4, 3);
