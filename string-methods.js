@@ -23,3 +23,15 @@ let result = love.toUpperCase();
 let result1 = love.toLowerCase();
 console.log(result, result1);
 console.log(result1);
+
+let concat = result.concat(" ", result1);
+console.log(concat);
+
+let love1 = "     I love love Jorina       ";
+
+console.log(love1.trim());
+
+let stingSearch = "I love love Jorina";
+
+console.log(stingSearch.lastIndexOf("love"));
+
