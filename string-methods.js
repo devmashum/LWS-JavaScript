@@ -1,21 +1,21 @@
-// const a = {
-//     name: "Bangladesh";
-//     age: 47,
-//     are: 147570,
-// }
+const a = {
+    name: "Bangladesh";
+    age: 47,
+    are: 147570,
+}
 
-// console.log(a.age);
+console.log(a.age);
 
-// let str = "apple, banana, kiwi";
-// console.log(str.slice(7, 13));
+let str = "apple, banana, kiwi";
+console.log(str.slice(7, 13));
 
-// Replace Method:
+Replace Method:
 
-// let love = "I love Jorina";
-// console.log(love.replace("Jorina", "Michi"));
+let love = "I love Jorina";
+console.log(love.replace("Jorina", "Michi"));
 
-// let love = "I love love Jorina";
-// console.log(love.replace("love", "hate"));
+let love = "I love love Jorina";
+console.log(love.replace("love", "hate"));
 
 
 let love = "I love love Jorina";
@@ -34,4 +34,10 @@ console.log(love1.trim());
 let stingSearch = "I love love Jorina";
 
 console.log(stingSearch.lastIndexOf("love"));
+console.log(stingSearch.includes("loove"));
 
+let d = "10";
+let e = 10;
+let f = isNaN(e);
+
+console.log(isNaN(f));
