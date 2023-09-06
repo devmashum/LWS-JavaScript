@@ -3,7 +3,7 @@
 // console.log(car.model);
 // console.log(car["model"]);
 
-let x = ("Faisal");
-let y = new String("Faisal");
+// let x = ("Faisal");
+// let y = new String("Faisal");
 
-console.log(x == y);
+// console.log(x == y);
