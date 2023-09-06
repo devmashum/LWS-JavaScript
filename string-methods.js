@@ -6,13 +6,20 @@
 
 // console.log(a.age);
 
-let str = "apple, banana, kiwi";
-console.log(str.slice(7, 13));
+// let str = "apple, banana, kiwi";
+// console.log(str.slice(7, 13));
 
 // Replace Method:
 
 // let love = "I love Jorina";
 // console.log(love.replace("Jorina", "Michi"));
 
+// let love = "I love love Jorina";
+// console.log(love.replace("love", "hate"));
+
+
 let love = "I love love Jorina";
-console.log(love.replace("love", "hate"));
+let result = love.toUpperCase();
+let result1 = love.toLowerCase();
+console.log(result, result1);
+console.log(result1);
